@@ -324,6 +324,8 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -335,6 +337,7 @@ SkinnedMeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -785,6 +788,7 @@ GameObject:
   - component: {fileID: 114596199732060686}
   - component: {fileID: 114730609460955830}
   - component: {fileID: 195644442718834230}
+  - component: {fileID: 3870461087744168033}
   m_Layer: 0
   m_Name: Bear
   m_TagString: Untagged
@@ -1042,6 +1046,18 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &3870461087744168033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514481875857408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6ac3ebaad00054bbb751e089b1f668, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1529970377729522
 GameObject:
   m_ObjectHideFlags: 0

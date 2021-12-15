@@ -22,6 +22,8 @@ public class Gun : MonoBehaviour
         }
     }
 
+    
+
     public void Shoot()
     {
         if (muzzleFlashPrefab)
